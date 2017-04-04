@@ -10,6 +10,7 @@ spec:
       labels:
         app: nginx
     spec:
+      serviceAccountName: nginx-ingress
       containers:
       - image: gcr.io/google_containers/nginx-ingress-controller:0.8.3
         name: nginx

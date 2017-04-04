@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - echo.example.com
+    - echo.kubeme.io
     secretName: echoserver-tls
   rules:
-  - host: echo.example.com
+  - host: echo.kubeme.io
     http:
       paths:
       - path: /
